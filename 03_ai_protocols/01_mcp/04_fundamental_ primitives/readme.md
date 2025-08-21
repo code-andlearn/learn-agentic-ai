@@ -1,13 +1,21 @@
-# Module 1: MCP Fundamental Primitives
+# Module 4: MCP Fundamental Primitives
+
+> **Master the core building blocks of Model Context Protocol through hands-on coding**  
+> Based on [Anthropic's Introduction to Model Context Protocol Course](https://anthropic.skilljar.com/introduction-to-model-context-protocol)
+
+> **First Read** [Introduction MCP Course Lessons](https://docs.google.com/document/d/1W7Ex0rAK2kMtqTHHHEGwTFu2Wrf-zmQJosifppqF-vQ/)
+
+
+MCP is not just about enhancing desktop applications with agentic functionality. It's about exposing reusable tools and resources to build agentic microservices. Watch:
+
+- [Model Context Protocol (MCP) Explained for Beginners: AI Flight Booking Demo!](https://www.youtube.com/watch?v=E2DEHOEbzks)
+- [Why MCP really is a big deal | Model Context Protocol with Tim Berglund](https://www.youtube.com/watch?v=FLpS7OfD5-s)
 
 Model Context Protocol (MCP) is a communication layer for Agents context and tools so you don't have to write a bunch of tedious integration code for each project. Use it to shift the burden of tool definitions and execution away from your server to MCP servers.
 
 - If Github have MCP server and my agent have to manage some GitHub Actions why write them again?
 - Like companies providing APIs now they will likely create MCP implementation.
-- It's Transport agnostic with some caveats - the client and server can communicate over different protocols.
-
-> **Master the core building blocks of Model Context Protocol through hands-on coding**  
-> Based on [Anthropic's Introduction to Model Context Protocol Course](https://anthropic.skilljar.com/introduction-to-model-context-protocol)
+- It's Transport agnostic with some caveats- the client and server can communicate over different protocols.
 
 ## Overview
 
@@ -54,8 +62,8 @@ By the end of this module, you will be able to:
 
 - [03_defining_tools](./03_defining_tools/readme.md) - Creating tools with decorators and type hints
 - [04_implementing_client](./04_implementing_client/readme.md) - For mcp tools create a simple client.
-- [05_defining_resources.md](05_defining_resources.md) - Creating read-only data resources
-- [06. Working with Prompts](06_working_with_prompts.md) - Building pre-crafted prompts for common workflows
+- [05_defining_resources.md](05_defining_resources/readme.md) - Creating read-only data resources
+- [06. Working with Prompts](06_working_with_prompts/readme.md) - Building pre-crafted prompts for common workflows
 
 ## MCP Core Primitives
 
